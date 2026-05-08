@@ -61,3 +61,16 @@ Thumbs.db
 .coverage
 htmlcov/
 .pytest_cache/
+
+# ----- Large binary / compiled files -----
+*.jar
+*.exe
+*.dll
+*.parquet
+*.bin
+
+# ----- Data directories (actual data, not code) -----
+data ingestion/Connector/bronze_layer/
+data lakehouse/syniq_project/jars/
+data lakehouse/syniq_project/hadoop/
+data lakehouse/syniq_project/gold/eda_reports/
