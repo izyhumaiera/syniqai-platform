@@ -1,0 +1,7 @@
+{
+      "mongo_uri": "mongodb+srv://connector_user:ConnectorPass123@test.pw8zb01.mongodb.net/?appName=Test",
+      "database": "media_db",
+      "collection": "images_metadata",
+      "chunk_size": 1,
+      "flatten_documents": true
+}

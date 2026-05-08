@@ -1,0 +1,24 @@
+{
+    "source_type": "mariadb",
+    "entity": "tbl_small",
+    "storage_engine": "InnoDB",
+    "engine_risk_level": "low",
+    "mvcc_supported": true,
+    "strategy": "serial_safe",
+    "row_count": 1000,
+    "schema_snapshot": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "val",
+            "type": "VARCHAR(255)"
+        }
+    ],
+    "extracted_at": "2026-02-02T05:39:47.569845+00:00",
+    "row_count_actual": 1000,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260202_133947"
+}

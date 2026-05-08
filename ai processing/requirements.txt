@@ -1,0 +1,9 @@
+psycopg2-binary
+requests
+minio
+python-dotenv
+pillow
+pdfplumber
+pdf2image
+python-docx
+ffmpeg-python

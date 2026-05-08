@@ -1,0 +1,25 @@
+{
+  "measurement_timestamp": "2026-04-13T16:57:12.559657",
+  "metrics": {
+    "cdc_latency": {
+      "min": 0.0009860992431640625,
+      "max": 0.013060808181762695,
+      "mean": 0.0036083221435546874,
+      "median": 0.001001596450805664
+    },
+    "bronze_ingestion": {
+      "estimated_files_per_hour": 150,
+      "note": "Conservative estimate - load test recommended"
+    },
+    "uptime": {
+      "current_availability_percent": 33.33333333333333,
+      "estimated_historical_uptime_percent": 68,
+      "services_status": {
+        "api": false,
+        "postgres": true,
+        "minio": false
+      },
+      "note": "Install monitoring for accurate historical data"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+# =============================================================================
+# SyniqAI Platform — .gitignore
+# =============================================================================
+
+# ----- Node.js / Frontend -----
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# ----- Python Virtual Environments -----
+.venv/
+venv/
+ENV/
+env/
+syniq_env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+
+# ----- Environment / Secrets (NEVER commit these) -----
+.env
+.env.local
+.env.*.local
+*.secret
+
+# ----- Databases -----
+*.db
+*.sqlite
+*.sqlite3
+
+# ----- Logs & Temp -----
+*.log
+logs/
+airflow/airflow_logs/
+airflow/airflow_data/
+
+# ----- Kafka runtime data -----
+Kafka Integration/checkpoints/
+Kafka Integration/logs/
+
+# ----- OS / Editor -----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/settings.json
+
+# ----- Zip archives -----
+*.zip
+
+# ----- Jupyter -----
+.ipynb_checkpoints/
+
+# ----- Coverage / Test artifacts -----
+.coverage
+htmlcov/
+.pytest_cache/

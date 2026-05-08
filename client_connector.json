@@ -1,0 +1,22 @@
+{
+  "name": "localhost-postgres-cdc",
+  "config": {
+    "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+    "database.hostname": "localhost",
+    "database.port": "5432",
+    "database.user": "postgres",
+    "database.password": "postgres",
+    "database.dbname": "syniqai_metadata",
+    "database.server.name": "localhost_db",
+    "table.include.list": "public.silver_assets",
+    "plugin.name": "pgoutput",
+    "slot.name": "debezium_localhost_slot",
+    "publication.name": "dbz_publication_local",
+    "snapshot.mode": "initial",
+    "topic.prefix": "syniqai",
+    "key.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "key.converter.schemas.enable": "false",
+    "value.converter.schemas.enable": "false"
+  }
+}

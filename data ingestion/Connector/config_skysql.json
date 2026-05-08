@@ -1,0 +1,23 @@
+{
+  "source_type": "mariadb_cloud",
+  "connection_config": {
+    "host": "serverless-us-west-2.sysp0000.db1.skysql.com",
+    "port": 4020,
+    "database": "idp_ingestion_db",
+    "user": "analyst_readonly",
+    "password": "$BgyzM&H123EN#B0",
+    "ssl_ca": "C:\\Users\\Syarifah\\OneDrive - M Telecommunication Sdn Bhd\\INTERNSHIP\\globalsignrootca.pem",
+    "ssl_verify_cert": true,
+    "connect_timeout": 30,
+    "read_timeout": 60
+  },
+  "extraction_request": {
+    "entity": "customers",
+    "mode": "full",
+    "enable_parallel": false,
+    "partition_column": "id",
+    "chunk_size": 50000,
+    "num_workers": 1,
+    "flatten_json": {}
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_name": "client_test_db",
+  "s3_bucket": "izy-raw-datalake-2026",
+  "s3_prefix": "metadata/",
+  "aws_access_key": "AKIA3Z737W3D2HN3NH4C",
+  "aws_secret_key": "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",
+  "aws_region": "ap-southeast-1"
+}

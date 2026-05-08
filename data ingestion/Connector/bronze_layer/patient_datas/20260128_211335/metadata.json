@@ -1,0 +1,24 @@
+{
+    "source_type": "postgres",
+    "entity": "patient_datas",
+    "row_count": 4,
+    "schema_snapshot": [
+        {
+            "name": "record_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "user_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "medical_info",
+            "type": "JSON"
+        }
+    ],
+    "extracted_at": "2026-01-28T13:13:35.347122+00:00",
+    "row_count_actual": 4,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260128_211335"
+}

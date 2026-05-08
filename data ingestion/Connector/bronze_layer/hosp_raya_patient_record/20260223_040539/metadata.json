@@ -1,0 +1,24 @@
+{
+    "source_type": "postgres",
+    "entity": "hosp_raya_patient_record",
+    "row_count": 1,
+    "schema_snapshot": [
+        {
+            "name": "record_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "user_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "medical_info",
+            "type": "JSON"
+        }
+    ],
+    "extracted_at": "2026-02-22T20:05:39.803593+00:00",
+    "row_count_actual": 4,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260223_040539"
+}

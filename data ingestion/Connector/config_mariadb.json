@@ -1,0 +1,21 @@
+{
+  "source_type": "mariadb",
+  "connection_config": {
+    "host": "192.168.2.114",
+    "port": 3306,
+    "database": "mysql",
+    "user": "remote_user",
+    "password": "secure_password"
+  },
+  "extraction_request": {
+    "entity": "test_table",
+    "mode": "full",
+    "chunk_size": 10000,
+    "enable_parallel": true,
+    "partition_column": "id",
+    "num_workers": 4,
+    "flatten_json": {
+      "details": ["status", "score"]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "source_type": "mariadb",
+    "entity": "tbl_large",
+    "storage_engine": "InnoDB",
+    "engine_risk_level": "low",
+    "row_count": 2731,
+    "worker": "ThreadPoolExecutor-3_3",
+    "schema_snapshot": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "data",
+            "type": "CHAR(100)"
+        },
+        {
+            "name": "created_at",
+            "type": "TIMESTAMP"
+        }
+    ],
+    "extracted_at": "2026-02-02T02:16:25.497150+00:00",
+    "row_count_actual": 16384,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260202_101624"
+}

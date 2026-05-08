@@ -1,0 +1,26 @@
+{
+    "source_type": "postgres",
+    "entity": "patient_records",
+    "mode": "incremental",
+    "row_count": 201,
+    "total_expected": 201,
+    "schema_snapshot": [
+        {
+            "name": "record_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "user_id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "medical_info",
+            "type": "JSONB"
+        }
+    ],
+    "extracted_at": "2026-01-21T13:13:02.306324+00:00",
+    "row_count_actual": 201,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260121_211258"
+}

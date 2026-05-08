@@ -1,0 +1,19 @@
+{
+  "source_type": "postgres",
+  "connection_config": {
+    "host": "192.168.2.114",
+    "port": 5432,
+    "database": "postgres",
+    "user": "postgres",
+    "password": "password",
+    "secret_ref": "interactive"
+  },
+  "extraction_request": {
+    "entity": "hosp_raya_patient_record",
+    "mode": "full",
+    "chunk_size": 1,
+    "enable_parallel": true,
+    "partition_column": "id",
+    "num_workers": 1
+  }
+}

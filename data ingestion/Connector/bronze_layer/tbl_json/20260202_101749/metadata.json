@@ -1,0 +1,28 @@
+{
+    "source_type": "mariadb",
+    "entity": "tbl_json",
+    "storage_engine": "InnoDB",
+    "engine_risk_level": "low",
+    "mvcc_supported": true,
+    "strategy": "serial_safe",
+    "row_count": 1,
+    "schema_snapshot": [
+        {
+            "name": "id",
+            "type": "INTEGER"
+        },
+        {
+            "name": "raw_json",
+            "type": "LONGTEXT"
+        },
+        {
+            "name": "description",
+            "type": "VARCHAR(255)"
+        }
+    ],
+    "extracted_at": "2026-02-02T02:17:49.524394+00:00",
+    "row_count_actual": 3,
+    "format": "parquet",
+    "compression": "snappy",
+    "run_id": "20260202_101749"
+}
